@@ -23,6 +23,7 @@
             var MaleEmployees = employees.Where(emp => emp.Gender == "Male").ToList();
 
             Console.WriteLine( " \n \n Male Employees");
+            Console.WriteLine( " \n \n Female Employees");
             List<Employee> MaleEmployeeList = new List<Employee>();
             foreach (Employee emp in MaleEmployees)
             {
